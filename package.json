@@ -1,0 +1,29 @@
+{
+  "name": "node-generators-sandbox",
+  "version": "0.0.1",
+  "description": "Examples and tests of node generators",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha ./test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/abelnation/node-generators-sandbox.git"
+  },
+  "author": "Abel Allison <https://github.com/abelnation>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/abelnation/node-generators-sandbox/issues"
+  },
+  "homepage": "https://github.com/abelnation/node-generators-sandbox#readme",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "chai-as-promised": "^6.0.0",
+    "mocha": "^3.1.2",
+    "sinon": "^1.17.6"
+  },
+  "dependencies": {
+    "bluebird": "^3.4.6",
+    "co": "^4.6.0"
+  }
+}
